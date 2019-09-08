@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700|Pacifico");
+html, body {
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  /* Font varient */
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  /* Smoothing */
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px; }
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 24px; }
+
+.navbar-transparent {
+  background-color: transparent !important; }
+
+.profile-pic-img {
+  border: 3px solid #999;
+  border-radius: 5px; }
+
+.social-icons {
+  color: #777; }
+
+.social-icons:hover, .social-icons:active, .social-icons:focus {
+  color: #333; }
+
+.us-line {
+  background-color: #555;
+  height: 3px;
+  width: 30px;
+  margin-top: 10px; }
+
+.projects {
+  font-size: 18px; }
+
+.projects dt {
+  font-weight: 700; }
+
+.projects dd {
+  font-weight: 300; }
