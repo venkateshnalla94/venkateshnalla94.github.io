@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700|Pacifico");
-html, body {
+html,
+body {
   color: #333;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-text-size-adjust: 100%;
   /* Font varient */
   font-variant-ligatures: none;
@@ -14,8 +15,17 @@ html, body {
   font-size: 16px; }
 
 .navbar-brand {
-  font-family: 'Pacifico', cursive;
-  font-size: 24px; }
+  font-size: 30px; }
+
+.resume {
+  margin-top: 2%;
+  height: 50px;
+  background: #ff4757;
+  border-radius: 500px;
+  width: 200px; }
+
+.resume:focus {
+  outline: none; }
 
 .navbar-transparent {
   background-color: transparent !important; }
@@ -27,7 +37,9 @@ html, body {
 .social-icons {
   color: #777; }
 
-.social-icons:hover, .social-icons:active, .social-icons:focus {
+.social-icons:hover,
+.social-icons:active,
+.social-icons:focus {
   color: #333; }
 
 .us-line {
