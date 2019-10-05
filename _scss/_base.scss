@@ -18,6 +18,11 @@ body {
 .navbar-brand {
   font-size: 30px;
 }
+@media (max-width: 761px) {
+  .resume {
+    margin-left: 10%;
+  }
+}
 .resume {
   margin-top: 2%;
   height: 50px;
